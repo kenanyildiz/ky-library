@@ -1,0 +1,12 @@
+Ajax İçeriği
+
+<label for="top" class="ky-radiobutton">
+    <input type="radio" name="gender" id="top" value="top" />
+    <span class="ck"></span>
+    <span class="text">top</span>
+</label>
+<label for="bis" class="ky-radiobutton">
+    <input type="radio" name="gender" id="bis" value="bis" checked />
+    <span class="ck"></span>
+    <span class="text">bis</span>
+</label>

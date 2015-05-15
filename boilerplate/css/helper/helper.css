@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Scrollbar styles
+   ========================================================================== */
+
+.mCustomScrollBox .mCSB_scrollTools { width: 8px !important; }
+.mCSB_scrollTools .mCSB_draggerRail { background: #ccc !important; width: 8px !important; border-radius: 0; }
+.mCSB_scrollTools .mCSB_dragger     { background: #4c4640 !important; width:8px !important; height: 33% !important; border-radius: 0; }
+.mCSB_container                     { width: auto !important; margin-right: 25px !important; overflow: hidden !important; }
+
+/* For Dropdown */
+.hiddenDiv .mCustomScrollBox .mCSB_scrollTools  { width: 8px !important; }
+.hiddenDiv .mCSB_scrollTools .mCSB_draggerRail  { background: #ccc !important; width: 8px !important; border-radius: 0; }
+.hiddenDiv .mCSB_scrollTools .mCSB_dragger      { background: #4c4640 !important; width: 8px !important; border-radius: 0; }
+.hiddenDiv .mCSB_container                      { width: auto !important; margin-right: 8px !important; overflow: hidden !important; }
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    filter: alpha(opacity=65);
+    -khtml-opacity: 0.65;
+    -moz-opacity: 0.65;
+    opacity: 0.65;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.disabled:hover { cursor: not-allowed }
+
+.img-responsive {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+.img-rounded {
+    border-radius: 6px;
+}
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-left      { text-align: left; }
+.text-right     { text-align: right; }
+.text-center    { text-align: center; }
+.text-justify   { text-align: justify; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+
+.pull-left  { float: left !important; }
+.pull-right { float: right !important; }
+
+.noMR           { margin-right: 0 !important }
+.noBR           { border-right: 0 !important }
+.invisible      { visibility: hidden; }
+.show           { display: block !important; }
+.hidden         { display: none !important; }
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.cf:before, .cf:after { content: " "; /* 1 */ display: table; /* 2 */ } .cf:after { clear: both; } .cf { *zoom: 1; }
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * { background: transparent !important; color: #000 !important;
+        box-shadow: none !important; text-shadow: none !important; }
+    a, a:visited { text-decoration: underline; } a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; /* h5bp.com/t */ }
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}

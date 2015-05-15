@@ -1,0 +1,115 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/* ==========================================================================
+   Another stylesheet import
+   ========================================================================== */
+
+@import 'base/normalize.css';                               /* Required, because this is reset stylesheet.. */
+@import 'base/typography.css';                              /* Required, because this is typography stylesheet.. */
+@import 'layout/grid.css';                              /* Required, because this is typography stylesheet.. */
+
+/* ==========================================================================
+   Base styles: opinionated defaults - App Specific
+   ========================================================================== */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #2a6496;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    color: #777;
+}
+
+h1 { font-size: 36px }
+h2 { font-size: 30px }
+h3 { font-size: 24px }
+h4 { font-size: 18px }
+h5 { font-size: 14px }
+h6 { font-size: 12px }
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #888
+}
+
+/* ==========================================================================
+   Helper Classes: App Specific
+   ========================================================================== */
+
+.full-width { width: 100%; clear: both; }
+.fix-width  { max-width: 980px; margin: 0 auto 0; clear: both; }
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Generic Style */
+body > #wrapper { width: 100%; position: relative; }
+
+
+/* HEADER */
+#header {  }
+
+
+
+/* FOOTER */
+#footer {  }
+
+
+
+
+
+
+.container { }
+.container .col-md-4 { height: 600px; color: white; text-align: center; }
+.bir { background: red; }
+.iki { background: blue; }
+.uc { background: orange; }
+
+
+
+
+
+
+
+
+
