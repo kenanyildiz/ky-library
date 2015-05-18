@@ -1,6 +1,8 @@
 /*
  * KY Library 2015
  *
+ * Thanks to Tolga Arıcan for all the help. (https://github.com/tarican)
+ *
  * @author      Kenan Yıldız
  * @website     http://www.kenanyildiz.net
  * @version     1.0.0

@@ -97,7 +97,7 @@ function characterLimiter(text, number, seperator) {
         var addedText       = splitData[0]+seperator;
         var mergedText      = text.substring(0,number) + addedText;
         return mergedText;
-    }else {
+    } else {
         return text;
     }
 }
