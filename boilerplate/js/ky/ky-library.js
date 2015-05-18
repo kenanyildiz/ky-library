@@ -551,7 +551,7 @@ KY.general = {
             });
 
 
-            $('.modal, .modal *').clickoutside(KY.general.modal.outsideClose);
+            $('.modal, .modal *').clickOutside(KY.general.modal.outsideClose);
 
         },
 
@@ -774,7 +774,16 @@ function cl(log) {
     console.log(log);
 }
 
-jQuery.fn.clickoutside = function(callback) {
+/**
+* Sample usage
+*
+* $('.elem').clickOutside(function() {
+*   // code goes here
+* });
+*
+* */
+
+jQuery.fn.clickOutside = function(callback) {
 
     var outside = 1, self = $(this);
 

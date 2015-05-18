@@ -4,9 +4,9 @@
    Another stylesheet import
    ========================================================================== */
 
-@import 'base/normalize.css';                               /* Required, because this is reset stylesheet.. */
-@import 'base/typography.css';                              /* Required, because this is typography stylesheet.. */
-@import 'layout/grid.css';                              /* Required, because this is typography stylesheet.. */
+@import 'base/normalize.css';    /* Required, because this is reset stylesheet.. */
+@import 'base/typography.css';   /* Required, because this is typography stylesheet.. */
+@import 'layout/grid.css';       /* Required, because this is grid stylesheet.. */
 
 /* ==========================================================================
    Base styles: opinionated defaults - App Specific
