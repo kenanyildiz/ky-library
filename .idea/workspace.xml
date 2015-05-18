@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8ae723-1e4a-48fd-a59e-18354acacf50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ky-library\boilerplate\js\plugins\jquery.mcustomscrollbar.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ky-library.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -274,7 +275,11 @@
       <created>1431932422529</created>
       <updated>1431932422529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mCustomScrollbar plugin updated..">
+      <created>1431936283216</created>
+      <updated>1431936283216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
