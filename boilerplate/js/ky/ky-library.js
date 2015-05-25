@@ -53,7 +53,7 @@ KY.general = {
              *     <span id="preloader"></span>
              * </body>
              * */
-            window.onload = this.loader();
+            $(window).on('load',this.loader);
         },
 
         loader: function () {

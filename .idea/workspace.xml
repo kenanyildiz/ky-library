@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8ae723-1e4a-48fd-a59e-18354acacf50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boilerplate/js/ky/ky-library.js" afterPath="$PROJECT_DIR$/boilerplate/js/ky/ky-library.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ky-library.iws" />
@@ -26,41 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lib.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
+      <file leaf-file-name="ky-library.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/ky-library.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="103.23077" vertical-offset="2735" max-vertical-offset="3570">
+            <state line="672" column="12" selection-start="22887" selection-end="22887" vertical-scroll-proportion="0.35307783" vertical-offset="10831" max-vertical-offset="13447">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ky-library.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/ky-library.js">
+      <file leaf-file-name="lib.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="767" column="0" selection-start="25641" selection-end="25641" vertical-scroll-proportion="0.0" vertical-offset="12875" max-vertical-offset="13736">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.mCustomScrollbar.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="34910" selection-end="34910" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="564">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/text.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853">
+            <state line="57" column="35" selection-start="2246" selection-end="2246" vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
@@ -80,7 +58,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/boilerplate/js/ky/text.js" />
-        <option value="$PROJECT_DIR$/boilerplate/js/ky/ky-library.js" />
         <option value="$PROJECT_DIR$/boilerplate/css/components/mnf-scrollbar.min.css" />
         <option value="$PROJECT_DIR$/boilerplate/js/plugins/jquery.mcustomscrollbar.js" />
         <option value="$PROJECT_DIR$/boilerplate/lib.html" />
@@ -88,6 +65,7 @@
         <option value="$PROJECT_DIR$/boilerplate/footer.html" />
         <option value="$PROJECT_DIR$/boilerplate/css/global.css" />
         <option value="$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js" />
+        <option value="$PROJECT_DIR$/boilerplate/js/ky/ky-library.js" />
       </list>
     </option>
   </component>
@@ -124,6 +102,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="text" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,7 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="ky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,13 +189,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ky-library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,29 +338,33 @@
       <created>1431936311200</created>
       <updated>1431936311200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mCustomScrollbar plugin updated..">
+      <created>1431936446170</created>
+      <updated>1431936446170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -345,146 +393,136 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/lib/jquery-ui.1.10.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255221">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/lib/jquery-1.11.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/ZeroClipboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="309" selection-end="309" vertical-scroll-proportion="0.15758981" vertical-offset="0" max-vertical-offset="43962">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.placeholder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.numberMask.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02004717" vertical-offset="0" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.5436321" vertical-offset="478" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/css/helper/helper.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/text/ajax_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/fonts/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="1183" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/css/pages/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="16" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853">
+        <state line="93" column="100" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="103.23077" vertical-offset="2735" max-vertical-offset="3570">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="2735" max-vertical-offset="3570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/ky-library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="767" column="0" selection-start="25641" selection-end="25641" vertical-scroll-proportion="0.0" vertical-offset="12875" max-vertical-offset="13736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="34910" selection-end="34910" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853">
-          <folding />
-        </state>
+        <state line="62" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/lib/jquery-ui.1.10.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/lib/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/ZeroClipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="309" selection-end="309" vertical-scroll-proportion="0.15758981" vertical-offset="0" max-vertical-offset="43962" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.placeholder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.numberMask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="28" selection-end="28" vertical-scroll-proportion="0.02004717" vertical-offset="0" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.5436321" vertical-offset="478" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/text/ajax_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/fonts/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/css/pages/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="16" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/css/components/jquery.mCustomScrollbar.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43184" selection-start="43184" selection-end="43184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+        <state line="0" column="43184" selection-start="43184" selection-end="43184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="34910" selection-end="34910" vertical-scroll-proportion="0.078794904" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2013" selection-end="2013" vertical-scroll-proportion="1.5136986" vertical-offset="0" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/css/base/typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/css/helper/helper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="100" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.3458904" vertical-offset="1278" max-vertical-offset="2346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boilerplate/lib.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="35" selection-start="2246" selection-end="2246" vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="3570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boilerplate/js/ky/ky-library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="767" column="0" selection-start="25641" selection-end="25641" vertical-scroll-proportion="0.0" vertical-offset="12875" max-vertical-offset="13736">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boilerplate/js/plugins/jquery.mCustomScrollbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="34910" selection-end="34910" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="564">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="672" column="12" selection-start="22887" selection-end="22887" vertical-scroll-proportion="0.35307783" vertical-offset="10831" max-vertical-offset="13447">
+          <folding />
         </state>
       </provider>
     </entry>
